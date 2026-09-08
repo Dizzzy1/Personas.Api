@@ -19,8 +19,7 @@ namespace Personas.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> CrearPersona(Persona persona)
         {
-            string connectionString =
-                _configuration.GetConnectionString("DefaultConnection");
+            string connectionString = "Server=tcp:personas-api-ronald-2026.database.windows.net,1433;Initial Catalog=PersonasDB;Persist Security Info=False;User ID=Ronald;Password=RonHac@1232025;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
             using var connection = new SqlConnection(connectionString);
 

@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <InvariantGlobalization>true</InvariantGlobalization>
 	  <InvariantGlobalization>false</InvariantGlobalization>
+	  <UserSecretsId>personas-api-secrets-12345-6789</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
